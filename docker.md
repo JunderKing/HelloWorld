@@ -5,8 +5,7 @@ Docker->Perferences...->Daemon->Registry mirrors->http://hub-mirror.c.163.com # 
 docker info # 查看代理是否设置成功
 ```
 # 常用命令
-```
-@Bash
+```Bash
 docker images # 查看本地镜像
 docker search $name # 搜索镜像
 docker pull $repo[:$tag] # 下载镜像
